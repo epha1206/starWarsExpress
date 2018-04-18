@@ -21,7 +21,7 @@ var darthmaul = {
   forcePoints: 1200
 };
 
-var obiWan = {
+var obiwankenobi = {
     name: "Obi-Wan Kenobi",
     role: "moral support",
     age: 221,
@@ -50,8 +50,8 @@ app.get("/darthmaul", function(req, res) {
   res.json(darthmaul);
 });
 
-app.get("/obiWan", function(req, res) {
-    res.json(obiWan);
+app.get("/obiwankenobi", function(req, res) {
+    res.json(obiwankenobi);
   });
 
 // Create a new Express route that leads users to the new Obi Wan Kenobi Data
