@@ -50,6 +50,10 @@ app.get("/darthmaul", function(req, res) {
   res.json(darthmaul);
 });
 
+app.get("/obiWan", function(req, res) {
+    res.json(darthmaul);
+  });
+
 // Create a new Express route that leads users to the new Obi Wan Kenobi Data
 // Follow the same format as the Yoda and Darth Maul routes
 //
